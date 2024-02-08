@@ -60,6 +60,11 @@ flutter:
 
   assets:
     - assets/images/hero_image.png
+    - assets/images/Location.png
+    - assets/images/Play_button.png
+    - assets/images/avatar.png
+    - assets/images/coffee.png
+    - assets/images/burger.png
      
 
   # To add assets to your application, add an assets section, like this:

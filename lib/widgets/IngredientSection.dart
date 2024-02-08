@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import "package:foodrecipe/widgets/Ingredient.dart";
+import 'package:foodrecipe/widgets/Ingredient.dart';
 
 class IngredientSection extends StatelessWidget {
   const IngredientSection({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       children: [
-        const Row(
+        Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
@@ -25,22 +25,114 @@ class IngredientSection extends StatelessWidget {
                 color: Colors.grey,
                 fontSize: 14,
               ),
-            )
+            ),
           ],
         ),
-    const SizedBox(
-        height: 15,
-    ),
-    Ingredient(),
-    const SizedBox(
-      height: 15,
-    ),
-     Ingredient(),
-    const SizedBox(
-      height: 15,
-    ),
-     Ingredient(),
+        SizedBox(
+          height: 15,
+        ),
+        Ingredient(image: 'assets/images/coffee.png', name: 'coffee', weight: ''),
+        SizedBox(
+          height: 15,  
+        ),
+        Ingredient(image: 'assets/images/burger.png', name: 'burger', weight: ''),
+        SizedBox(
+          height: 15,
+        ),
+        Ingredient(image: 'assets/images/coffee.png', name: 'burger', weight: ''),
       ],
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import 'package:flutter/material.dart';
+// import "package:foodrecipe/widgets/Ingredient.dart";
+
+// class IngredientSection extends StatelessWidget {
+//   const IngredientSection({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return const Column(
+//       children: [
+//         Row(
+//           mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//           children: [
+//             Text(
+//               "Ingredients",
+//               style: TextStyle(
+//                 fontSize: 24,
+//                 fontWeight: FontWeight.w500,
+//               ),
+//             ),
+//             Text(
+//               "5 items",
+//               style: TextStyle(
+//                 fontWeight: FontWeight.w500,
+//                 color: Colors.grey,
+//                 fontSize: 14,
+//               ),
+//             )
+//           ],
+//         ),
+//     SizedBox(
+//         height: 15,
+//     ),
+//     Ingredient(image: '', name: '', weight: '',),
+//     SizedBox(
+//       height: 15,
+//     ),
+//      Ingredient(image: '', name: '', weight: '',),
+//     SizedBox(
+//       height: 15,
+//     ),
+//      Ingredient(image: '', name: '', weight: '',),
+//       ],
+//     );
+//   }
+// }
