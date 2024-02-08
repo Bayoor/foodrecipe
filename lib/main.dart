@@ -62,7 +62,10 @@ class MyHomePageState extends State<MyHomePage> {
                 const SizedBox(
                   height: 14,
                 ),
-                UserInfoPanel(image: "assets/images/avatar.png", name: "Roberta Anny", location: "Bail, Indonesia",)
+                UserInfoPanel(image: "assets/images/avatar.png", name: "Roberta Anny", location: "Bail, Indonesia",),
+                const SizedBox(
+                  height: 22,
+                ),
             ]
           )
         ),
