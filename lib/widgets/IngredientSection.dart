@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:foodrecipe/widgets/Ingredient.dart';
 
@@ -15,7 +17,7 @@ class IngredientSection extends StatelessWidget {
               "Ingredients",
               style: TextStyle(
                 fontSize: 24,
-                fontWeight: FontWeight.w500,
+                fontWeight: FontWeight.w900,
               ),
             ),
             Text(

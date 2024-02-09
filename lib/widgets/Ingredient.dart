@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 
 class Ingredient extends StatelessWidget {
@@ -6,7 +8,7 @@ class Ingredient extends StatelessWidget {
     required this.image,
     required this.name,
     required this.weight,
-  })  ;
+  });
 
   final String image;
   final String name;
@@ -41,14 +43,14 @@ class Ingredient extends StatelessWidget {
               Text(
                 name,
                 style: const TextStyle(
-                  fontSize: 17,
-                  fontWeight: FontWeight.w700,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w900,
                 ),
               ),
             ],
           ),
           Text(
-            "$weight g",
+            "$weight" "g",
             style: const TextStyle(
               fontWeight: FontWeight.w500,
               color: Colors.grey,

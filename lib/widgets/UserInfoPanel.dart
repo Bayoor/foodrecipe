@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import "package:flutter/material.dart";
 
 class UserInfoPanel extends StatelessWidget {
@@ -19,22 +21,20 @@ class UserInfoPanel extends StatelessWidget {
       children: [
         Row(
           children: [
-            Container(
-              child: Image.asset(
-                image,
-                fit: BoxFit.cover,
-              ),
+            Image.asset(
+              image,
+              fit: BoxFit.cover,
             ),
-            SizedBox(width: 10),
+            const SizedBox(width: 10),
             Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
                   name,
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 17,
+                  style: const TextStyle(
+                    fontWeight: FontWeight.w900,
+                    fontSize: 20,
                   ),
                 ),
                 Row(
@@ -42,7 +42,7 @@ class UserInfoPanel extends StatelessWidget {
                     Image.asset(
                       "assets/images/Location.png",
                     ),
-                    SizedBox(width: 5),
+                    const SizedBox(width: 5),
                     Text(
                       location,
                       style: const TextStyle(
@@ -61,10 +61,10 @@ class UserInfoPanel extends StatelessWidget {
           onPressed: () {},
           style: ElevatedButton.styleFrom(
             backgroundColor: Colors.red,
-            foregroundColor: Colors.white,
-            padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 8),
+            foregroundColor: const Color.fromARGB(255, 255, 255, 255),
+            padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 15),
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
+              borderRadius: BorderRadius.circular(15),
             ),
           ),
           child:  const Text('Follow'),
