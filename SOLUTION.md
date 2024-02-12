@@ -3,7 +3,7 @@
 <img src="./assets/images/foodrecipe_screenshot.png" alt= "Food Recipe Screenshot">
 
 
-This Flutter project is a comprehensive mobile application that showcase a landing page . The landing page have two sections, the hero section and the Ingredent section. This project is broken down into several widget components and then used in the main widget.
+This Flutter project is a comprehensive mobile application that showcase a landing page . The landing page have three(3) sections, the hero section, the profile section and the Ingredent section. This project is broken down into several widget components and then used in the main widget.
 
 ## Table of Contents
 
